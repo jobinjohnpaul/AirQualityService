@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Test\\AirQuality.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Core.Services\\AirQuality.Core.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Core.Services\\AirQuality.Core.Services.csproj",
+        "projectName": "AirQuality.Core.Services",
+        "projectPath": "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Core.Services\\AirQuality.Core.Services.csproj",
+        "packagesPath": "C:\\Users\\jobin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Core.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Test\\AirQuality.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Test\\AirQuality.Test.csproj",
+        "projectName": "AirQuality.Test",
+        "projectPath": "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Test\\AirQuality.Test.csproj",
+        "packagesPath": "C:\\Users\\jobin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Core.Services\\AirQuality.Core.Services.csproj": {
+                "projectPath": "D:\\Projects\\EPAAirQuality\\AirQualityService\\AirQuality.Core.Services\\AirQuality.Core.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
