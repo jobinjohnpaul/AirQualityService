@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirQualityService", "AirQua
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirQuality.Test", "AirQuality.Test\AirQuality.Test.csproj", "{59938579-4025-41BA-9444-66629302EA4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirQuality.Core.Services", "AirQuality.Core.Services\AirQuality.Core.Services.csproj", "{A9B07F6F-4DF3-4FB6-B4A9-3E79C34EF414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirQuality.Core.Services", "AirQuality.Core.Services\AirQuality.Core.Services.csproj", "{A9B07F6F-4DF3-4FB6-B4A9-3E79C34EF414}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49D708C5-7664-4AF8-B1B0-8EA40517AD62}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

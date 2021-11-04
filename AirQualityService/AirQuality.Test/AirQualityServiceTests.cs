@@ -1,7 +1,6 @@
 using AirQuality.Core.Services;
 using AirQuality.Services;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -14,7 +13,7 @@ namespace AirQuality.Test
         public AirQualityServiceTests()
         {
             _serviceCollection= new ServiceCollection();
-            _serviceCollection.ConfigureServices("https://www.epa.vic.gov.au/api/envmonitoring/sites?environmentalSegment=air&scientificParameterData=true");
+            _serviceCollection.ConfigureApplicationServices("https://www.epa.vic.gov.au/api/envmonitoring/sites?environmentalSegment=air&scientificParameterData=true");
             _serviceProvider = _serviceCollection.BuildServiceProvider();
         }
 
@@ -34,7 +33,6 @@ namespace AirQuality.Test
             
             var airQualityService = _serviceProvider.GetRequiredService<IAirQualityRetrieverService>();
             var output = await airQualityService.GetAirQualityForClosestLocation(-37.6667124, 145.0642075);
-
             Assert.NotNull(output);
         }
     }

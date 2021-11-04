@@ -1,9 +1,0 @@
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\bin\Debug\netstandard2.0\AirQuality.Services.deps.json
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\bin\Debug\netstandard2.0\AirQuality.Services.dll
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\obj\Debug\netstandard2.0\AirQuality.Services.csprojAssemblyReference.cache
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\obj\Debug\netstandard2.0\AirQuality.Services.AssemblyInfoInputs.cache
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\obj\Debug\netstandard2.0\AirQuality.Services.AssemblyInfo.cs
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\bin\Debug\netstandard2.0\AirQuality.Services.pdb
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\obj\Debug\netstandard2.0\AirQuality.Services.dll
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\obj\Debug\netstandard2.0\AirQuality.Services.pdb
-D:\Projects\EPAAirQuality\AirQualityService\AirQuality.Services\obj\Debug\netstandard2.0\AirQuality.Services.csproj.CoreCompileInputs.cache

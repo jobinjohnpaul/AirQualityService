@@ -1,6 +1,7 @@
 ﻿using AirQuality.Core.Services;
 using AirQuality.Core.Services.MappingProfiles;
 using AutoMapper;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
 using Polly.Extensions.Http;
@@ -11,11 +12,10 @@ namespace AirQuality.Services
 {
     public static class Bootstrapper
     {
-        public static void ConfigureServices(this IServiceCollection serviceCollection, string baseUrl)
+        public static void ConfigureApplicationServices(this IServiceCollection serviceCollection,  string baseUrl)
         {
-
             var config = new MapperConfiguration(RegisterMappingProfiles);
-
+            
             serviceCollection.AddSingleton(typeof(IMapper), config.CreateMapper());
 
             serviceCollection.AddHttpClient<IAirQualityService, EPAAirQualityService>(ctx => ctx.BaseAddress = new Uri(baseUrl))

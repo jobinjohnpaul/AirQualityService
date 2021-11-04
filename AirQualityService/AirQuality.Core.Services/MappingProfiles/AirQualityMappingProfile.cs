@@ -9,8 +9,8 @@ namespace AirQuality.Core.Services.MappingProfiles
         public AirQualityMappingProfile()
         {
             CreateMap<Record, AirQualityRecordViewModel>()
-                .ForMember(c => c.Longitude, opt => opt.MapFrom(d => d.Geometry.Coordinates[0]))
-                .ForMember(c => c.Latitude, opt => opt.MapFrom(d => d.Geometry.Coordinates[1]))
+                .ForMember(c => c.Latitude, opt => opt.MapFrom(d => d.Geometry.Coordinates[0]))
+                .ForMember(c => c.Longitude, opt => opt.MapFrom(d => d.Geometry.Coordinates[1]))
                 .ForMember(c => c.SiteHealthAdviceSince, opt => opt.MapFrom(d => d.SiteHealthAdvices[0].Since))
                 .ForMember(c => c.SiteHealthAdviceUntil, opt => opt.MapFrom(d => d.SiteHealthAdvices[0].Until))
                 .ForMember(c => c.HealthParameter, opt => opt.MapFrom(d => d.SiteHealthAdvices[0].HealthParameter))
